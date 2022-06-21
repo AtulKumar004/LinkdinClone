@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 55px;
+    background-color: rgb(243, 242, 239);
+    width: 100%;
+    
+
+    height: auto;
+
+}
+.main-container{
+    width: 75%;
+    height: 100%;
+    /* background-color:aqua; */
+    display: flex;
+    gap: 20px;
+    /* padding: 10px; */
+    
+}

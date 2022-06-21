@@ -1,0 +1,126 @@
+.navbar{
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.nav-feature{
+    height: auto;
+    width: 75%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    padding: 4px 10px;
+}
+.nav-logo >img{
+    height: 35px;
+    width: 35px;
+}
+.global-nav-search{
+    width: 427px;
+    /* height: 34px; */
+    /* background-color: beige; */
+    
+}
+
+
+.global-nav-typed{
+    width: 280px;
+    height: 34px;
+    /* background-color: rgb(215, 129, 23); */
+    /* background-color: #eef3f8; */
+    border-radius: 4px;
+
+
+}
+.nav-logo{
+    padding: 0 5px;
+    display: flex;
+    align-items: center
+}
+
+.global-search-typed{
+    width: 100%;
+    border: none;
+    /* 0 8px 0: ; */
+    FONT-WEIGHT: 400;
+    line-height: 1.75;
+    font-weight: 400;
+    font-size: 14px;
+    height: 34px;
+    padding: 0 8px 0 40px;
+    background-color: rgb(238,243,248);
+}
+
+.search-icon{
+    position: relative;
+    z-index: 1;
+    top: 0;
+    left: 0;
+   
+}
+
+
+.global-sub-navbar{
+    height: 52px;
+    width: calc(100% - 427px - 30px - 20px);
+    /* background-color:aqua */
+}
+
+.sub-navbar-features{
+    display: flex;
+    margin: 0;
+    height: 50px;
+    align-items: center;
+    padding: 0 5px;
+
+}
+
+.sub-navbar-item{
+    display: flex;
+    align-items: center;
+    width: 80px;
+    /* background-color: aquamarine; */
+    justify-content: center;
+}
+
+
+.sub-navbar-item > a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    align-items: center;
+}
+
+.sub-navbar-item-logo{
+    height: 24px;
+    width: 24px;
+}
+.sub-navbar-item > a > span{
+    font-size: 14px;
+}
+
+/* .profile-img{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    
+} */
+.profile-img > img{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+
+.Profile{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
